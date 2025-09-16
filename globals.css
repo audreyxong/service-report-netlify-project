@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media print {
+  html, body { background: white; }
+  .page { break-after: page; }
+}
+@page { size: A4; margin: 12mm; }
